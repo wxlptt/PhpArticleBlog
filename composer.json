@@ -1,0 +1,22 @@
+{
+  "name": "comp3015/assignment2",
+  "authors": [
+    {
+      "name": "Christian Fenn",
+      "email": "christian_fenn@bcit.ca"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*",
+    "vlucas/phpdotenv": "^5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "core\\": "core",
+      "src\\": "src"
+    },
+    "files": [
+      "core/helpers.php"
+    ]
+  }
+}
